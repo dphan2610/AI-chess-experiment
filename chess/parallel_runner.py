@@ -1,6 +1,8 @@
 import time
 from multiprocessing import Pool
 from simulation_runner import run_simulation
+from file_utility import combine
+from analyzer import analyze
 
 if __name__ == '__main__':
     processes = 9
@@ -20,3 +22,10 @@ if __name__ == '__main__':
         
         end = time.time()
         print ('Time elapsed: ', end - start)
+
+    f_list = []
+    for x in list:
+        f_list.append(x[1])
+    print (f_list)
+    combine(f_list, 'chess-simulation-records')
+    analyze('chess-simulation-records')
