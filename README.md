@@ -6,7 +6,7 @@ How to run:
   cd chess
   python parallel-runner.py
 ```
-At the end of the simulation, the result will be printed out on the console:
+At the end of the simulation, the result will be printed out on the console:<br/>
 112411131|322<br/>
 112111314|210<br/>
 114111132|310<br/>
