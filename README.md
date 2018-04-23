@@ -6,21 +6,12 @@ How to run:
   cd chess
   python parallel-runner.py
 ```
-After the simulation, output files will be generated with the following name:<br/>
-chess-parallel-0<br/>
-chess-parallel-1<br/>
-...<br/>
-chess-parallel-9<br/>
+At the end of the simulation, the result will be printed out on the console:
+112411131|322<br/>
+112111314|210<br/>
+114111132|310<br/>
+412111311|221<br/>
+114111312|300<br/>
+...
 
-The format of output entries is:<br/>
-board|action|result
-
-Sample output:<br/>
-311214111|202|1<br/>
-311111214|320|1<br/>
-231111114|320|0<br/>
-213111141|322|0<br/>
-211111413|320|0<br/>
-
-Result = 1: outcome is a win<br/>
-Result = 0: outcome is a loss or draw<br/>
+First value is the board state, and second value is the action that provides best outcome.
