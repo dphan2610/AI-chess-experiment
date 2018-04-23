@@ -6,5 +6,5 @@ python parallel-runner.py
 After the simulation, output files will be generated with the following name:  
 chess-parallel-0  
 chess-parallel-1  
-...  
+...<br />
 chess-parallel-9
