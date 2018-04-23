@@ -1,5 +1,7 @@
 # AI-chess-experiment
-An experiment in chess AI using Monte-Carlo simulation method. How to run:
+An experiment in chess AI using Monte-Carlo simulation method.<br/>
+Required Python 3.3<br/>
+How to run:
 ```
   cd chess
   python parallel-runner.py
