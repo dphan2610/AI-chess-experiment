@@ -24,3 +24,6 @@ Board representation:<br/>
 1 1 2<br/>
 4 1 1<br/>
 1 3 1<br/>
+
+Action 322 means: move white ROOK to coordinate (2, 2) (Coordinate system: top left = (0, 0), bottom right = (2, 2))</br>
+
