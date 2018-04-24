@@ -1,6 +1,6 @@
 # AI-chess-experiment
 An experiment in chess AI using Monte-Carlo simulation method.<br/>
-Required Python 3.3+<br/>
+Requires Python 3.3+<br/>
 How to run:
 ```
   cd chess
@@ -12,4 +12,4 @@ At the end of the simulation, the result will be printed out on the console (boa
 114111132|310<br/>
 412111311|221<br/>
 114111312|300<br/>
-
+..and so on..
